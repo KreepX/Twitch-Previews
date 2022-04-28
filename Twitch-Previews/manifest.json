@@ -12,7 +12,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://www.twitch.tv/*"],
+      "matches": [ "https://canary.twitch.tv/*","https://www.twitch.tv/*" ],
       "css": ["main/css.css", "main/settings.css", "main/APS_settings.css"],
       "js": ["main/core.js"],
       "run_at": "document_end",
